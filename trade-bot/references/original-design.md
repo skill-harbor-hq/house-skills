@@ -5,7 +5,7 @@ This reference preserves the design facts of Maxime Proulx's paused NDAX paper-t
 ## Identity and status
 
 - **Project:** a local Python paper-trading environment for NDAX crypto markets.
-- **Status:** paused. The bot was closed on 2025-09-25 and nothing in this skill restarts it.
+- **Status:** paused. The bot was closed on 2026-09-25 and nothing in this skill restarts it.
 - **Money:** no real money. Market prices were real public NDAX prices; orders were simulated in a virtual portfolio.
 - **Starting portfolio:** 10,000 CAD.
 - **Fees:** NDAX fee model of 0.2% per side, applied to simulated buys and sells.
