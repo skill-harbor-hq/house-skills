@@ -1,0 +1,11 @@
+# Dependances en wheels seulement, installees directement dans
+# Lib\site-packages du Python portable (voir install.ps1).
+# Aucun venv, aucune construction depuis les sources, aucun PYTHONPATH.
+# V2 : Playwright remplace curl_cffi (la v1 se faisait servir un 503
+# direct par Amazon en requete HTTP). Le navigateur Chromium lui-meme
+# est installe par install.ps1 (playwright install chromium).
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+playwright>=1.40.0
+pydantic>=2.0.0
+beautifulsoup4>=4.12.0
